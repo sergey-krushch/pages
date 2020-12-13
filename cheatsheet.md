@@ -11,3 +11,6 @@ perl -0777 -pe s/pattern/replacement/
 ```
 Add regex mode flags at the end (e.g. /g etc) if necessary.
 
+# Linkage troubleshooting
+objdump -x binary
+readelf -d binary
